@@ -1,0 +1,15 @@
+{
+  "defaultEnv": {
+    "ENV": "SOCIAL_NODE_ENV"
+  },
+  "development": {
+    "ENV": "SOCIAL_POSTGRES_DEV_URL"
+  },
+  "test": {
+    "ENV": "SOCIAL_POSTGRES_TEST_URL"
+  },
+  "production": {
+    "ENV": "SOCIAL_DATABASE_URL"
+  },
+  "sql-file": true
+}
